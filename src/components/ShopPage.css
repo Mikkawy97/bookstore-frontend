@@ -1,0 +1,82 @@
+.input-group .custom-input {
+    position: relative; /* Position relative to allow absolute positioning of the icon */
+    padding-left: 50px; /* Add padding to prevent text from overlapping the icon */
+    background-color: white; /* Set the input background to white */
+    border: 1px solid #ced4da;
+    font-family: 'Poppins', sans-serif; /* Optional: Change border color if needed */
+  }
+  
+  .input-group .custom-icon {
+    position: absolute; /* Absolute position to place it inside the input */
+    left: 10px; /* Space from the left */
+    top: 50%; /* Center it vertically */
+    transform: translateY(-50%); /* Adjust for perfect vertical centering */
+    background: transparent; /* Ensure background is transparent */
+    border: none; /* Remove border */
+    pointer-events: none; /* Prevent clicks on the icon */
+  }
+  .card {
+    padding:10px;
+    border: none; 
+    border-style: none !important;/* Remove default border */
+    border-radius: 8px; /* Rounded corners */
+    background-color: #fff; /* Background color of the card */
+    height: 100%;;
+  }
+  
+  .card-img-top {
+    border-top-left-radius: 8px; /* Rounded corners for the image */
+    border-top-right-radius: 8px; /* Rounded corners for the image */
+  }
+  
+  .card-title {
+    font-size: 1.25rem; /* Adjust font size for the title */
+    font-weight: bold; /* Bold title */
+    margin-bottom: 0.5rem; /* Space below the title */
+  }
+  
+  .card-text {
+    color: #bbbaba;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 0.5rem; /* Space below the text */
+  }
+  
+  .btn-primary {
+    background-color: #007bff; /* Primary button color */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded button */
+    width: 100%; /* Full width button */
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+  }
+  .store{
+margin-right: 4px;
+    background-color: #FFF6F1;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+    border-radius: 7px;  
+    align-items: center;
+    height: 100%;
+  }
+
+  .store .price{
+    color: orange;
+  }
+
+  .store .sellbtn{
+
+    display: flex;  
+    align-items: center;
+    border-style: none;
+    background-color: #2374BF;
+    color: white;
+    padding: 9px;
+    border-radius: 7px;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+  }

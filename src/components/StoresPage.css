@@ -1,0 +1,27 @@
+   /* src/custom.css */
+   .stores-table {
+    background-color: white !important;
+    border-collapse: collapse; /* Removes vertical lines */
+  }
+
+  .stores-table th,
+  .stores-table td {
+    border: none; /* Removes vertical lines */
+    padding: 8px;
+  }
+
+  .stores-table tr:nth-child(even) {
+    background-color: #f8f9fa; /* Optional: Light grey for even rows */
+  }
+  .modal-no-border .modal-content {
+    border: none;
+    border-radius: 8px;
+  }
+  
+  .modal-no-border .modal-header {
+    border-bottom: none;
+  }
+  
+  .modal-no-border .modal-footer {
+    border-top: none;
+  }

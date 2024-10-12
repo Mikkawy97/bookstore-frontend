@@ -1,0 +1,14 @@
+/* Header.css */
+header {
+    font-family: 'Poppins', sans-serif; /* Assuming you're using the Poppins font */
+  }
+  
+  header h5 {
+    font-weight: 600; /* Slightly bolder title */
+    color: #333; /* Dark color for the text */
+  }
+  
+  header .text-muted {
+    color: #6c757d !important; /* Muted text color for breadcrumbs */
+  }
+  

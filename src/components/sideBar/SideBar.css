@@ -1,0 +1,6 @@
+.sidebar {
+    width: 250px; /* Fixed width for the sidebar */
+    position: fixed; /* Fix the sidebar position */
+    height: 100%; /* Full height */
+    background-color: #f8f9fa; /* Background color */
+  }
